@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+  	            
+<LinearLayout        
+
+  	xmlns:android="http://schemas.android.com/apk/res/android"         
+  	
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/howto">
+              		
+	<dvtr.ulib.views.TransparentPanel 			   		    
+        android:id="@+id/transparentPanel1" 
+		android:orientation="vertical"        
+        android:layout_width="0dip" 
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+		android:gravity="center"       
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip" >
+        
+	    <TextView 
+            style="@style/instrucstyle"
+            android:id="@+id/instructext" 
+            android:paddingTop="30dip"
+            android:textSize="16dp"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingBottom="30dip"
+            android:gravity="left|right">                       
+        </TextView>       	    
+	    	    
+	    <RelativeLayout
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	    	<TextView 
+	        	style="@style/optionsstyle"
+	        	android:id="@+id/prevbt"
+	        	android:onClick="previousClick"
+	        	android:paddingLeft="15dip"	        	
+	        	android:layout_width="wrap_content"
+	        	android:gravity="right"	 
+				android:textSize="14dp"	        	       	
+	        	android:text="@string/HT_PREVIOUS"
+	        	android:layout_alignParentLeft="true">	        
+	    	</TextView>
+	    	
+	        <TextView 
+	        	style="@style/optionsstyle"
+	        	android:id="@+id/nextbt"
+	        	android:onClick="nextClick"
+	        	android:paddingRight="15dip"	        	
+	        	android:layout_width="wrap_content"
+	        	android:gravity="right"	 
+				android:textSize="14dp"	        	       	
+	        	android:text="@string/HT_NEXT"
+	        	android:layout_alignParentRight="true">	        
+	    	</TextView>
+	    		    	    		    
+	    </RelativeLayout>	    	    	    
+	    	    
+	    	            
+    </dvtr.ulib.views.TransparentPanel>
+    
+</LinearLayout>

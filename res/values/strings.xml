@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battleship Solitaire 1.1</string>
+    <string name="Titol">Battleship Solitaire</string>
+    <string name="Versio">v1.1</string>
+    <string name="new_str">new game</string>
+    <string name="set_str">settings</string>
+    <string name="how_str">how to play</string>
+    <string name="about_str">about</string>
+    <string name="exit_str">exit</string>   
+    <string name="GS_NOBMPS">Graphical set : no pictures</string>
+    <string name="GS_WWII">Graphical set : World War II</string>
+    <string name="GS_CLASSICAL">Graphical set : classical</string>
+    <string name="SZ_TINY">Size : tiny (6x6)</string>
+    <string name="SZ_SMALL">Size : small (8x8)</string>
+    <string name="SZ_NORMAL">Size : normal (10x10)</string>
+    <string name="ST_TRUE">Show play time</string>
+    <string name="ST_FALSE">Don\'t show play time</string>
+    <string name="BT_NEW_GAME">New</string>
+    <string name="BT_RESET_GAME">Reset</string>
+    <string name="BT_SOLVE">Solve</string>
+    <string name="BT_FILLCELL">Fill cell</string>
+    <string name="BT_FILLCOL">Fill col.</string>
+    <string name="BT_FILLROW">Fill row</string>
+    <string name="HT_NEXT">Next ></string>
+    <string name="HT_PREVIOUS">&lt; Previous </string>
+    <string name="about">BattleShip Solitaire v1.1,\nby D.Tordera (Artisan Code)\ndtordera@gmail.com (2012)</string>
+</resources>

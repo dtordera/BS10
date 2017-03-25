@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="dvtr.games.logic.BS10"
+      android:versionCode="2"
+      android:versionName="1.1">
+    <uses-sdk 
+        android:minSdkVersion="10" 
+        android:targetSdkVersion="14"/>
+    
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"></uses-feature>
+    <uses-feature android:name="android.hardware.touchscreen"></uses-feature>
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application android:icon="@drawable/ic_app" android:label="@string/app_name">        
+        
+        <meta-data android:value="a14fa5575108295" android:name="ADMOB_PUBLISHER_ID" />
+        
+        <activity android:name=".BS10mainActivity"                  
+			      android:screenOrientation="landscape"                    
+		      	  android:theme="@style/menustyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            	android:name=".BS10SettingsActivity" 
+            	android:screenOrientation="landscape"                           
+		      	android:theme="@style/menustyle">                			      
+        </activity>
+        <activity 	
+            	android:name=".BS10GameActivity"
+            	android:screenOrientation="landscape"        
+            	android:theme="@style/playingstyle">            
+        </activity>
+        <activity
+            	android:name=".BS10HowToPlayActivity"
+            	android:screenOrientation="landscape" 	
+            	android:theme="@style/menustyle">
+        </activity>        
+        <activity
+            	android:name=".BS10AboutActivity"
+            	android:screenOrientation="landscape"
+            	android:theme="@style/menustyle">
+        </activity>
+        <activity 
+              	android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+  	            
+<LinearLayout        
+
+  	xmlns:android="http://schemas.android.com/apk/res/android"         
+  	
+  	android:id="@+id/settingsLayout"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:gravity="center"> 
+              		
+	<dvtr.ulib.views.TransparentPanel 			   		    
+        android:id="@+id/transparentPanel1" 
+		android:orientation="vertical"        
+        android:layout_width="0dip" 
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+		android:gravity="center"       
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip" >       
+        
+        <TextView android:id="@+id/setting1" 
+            style="@style/optionsstyle" 
+            android:paddingLeft="40dip" 
+            android:paddingTop="30dip"        	
+            android:onClick="settingGraphicalSet"/>     
+        <TextView android:id="@+id/setting2"
+            style="@style/optionsstyle"
+            android:paddingLeft="40dip"
+            android:onClick="settingSize" />
+        <TextView android:id="@+id/setting3"
+            style="@style/optionsstyle"
+            android:paddingLeft="40dip"
+            android:onClick="settingShowTime" 
+            android:paddingBottom="30dip"/>
+        
+    </dvtr.ulib.views.TransparentPanel>
+    
+</LinearLayout>

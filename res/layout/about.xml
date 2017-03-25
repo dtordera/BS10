@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+  	            
+<LinearLayout        
+
+  	xmlns:android="http://schemas.android.com/apk/res/android"         
+  	
+  	android:id="@+id/aboutlayout"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" android:baselineAligned="false" android:gravity="center"> 
+              		
+	<dvtr.ulib.views.TransparentPanel 			   		    
+        android:id="@+id/transparentPanel2" 
+		android:orientation="vertical"        
+        android:layout_width="0dip" 
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+		android:gravity="center"       
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip" 
+        >       
+        
+        <TextView android:id="@+id/TitleAbout" 
+            style="@style/titlestyle" 
+            android:paddingLeft="40dip"
+            android:text="@string/Titol" 
+            android:paddingTop="30dip"  	
+            />     
+        <TextView android:id="@+id/VersioAbout"
+            android:text="@string/Versio"
+            style="@style/versionstyle"
+            android:paddingLeft="40dip"
+             />
+        <TextView android:id="@+id/TextAbout"
+            style="@style/instrucstyle"
+            android:paddingLeft="40dip"
+            android:text="@string/about" 
+            android:paddingBottom="30dip"/>
+        
+    </dvtr.ulib.views.TransparentPanel>
+    
+</LinearLayout>
